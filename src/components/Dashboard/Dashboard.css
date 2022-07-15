@@ -1,0 +1,7 @@
+#top-background-image {
+  background-image: url("/public/background.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 800px;
+}
