@@ -1,11 +1,53 @@
 #chart-main-div {
-  background-color: rgb(41, 38, 38);
-  height: 500px;
+  background-color: #1e1e1e;
+  height: 600px;
   color: white;
-  border: 1px solid red;
   display: flex;
+  flex-wrap: wrap;
 }
 #chart-main-div > div {
   height: 300px;
   width: 300px;
+  padding: 40px;
+}
+#chart-main-div > div:nth-child(1) {
+  flex-basis: 500px;
+}
+#chart-main-div > div:nth-child(4) {
+  padding-left: 500px;
+  width: 100%;
+}
+#chart-main-div > div:nth-child(4) > p {
+  color: grey;
+  font-weight: 600;
+  font-size: 13px;
+  margin: 5px;
+}
+.chart-child-heading {
+  color: rgb(139, 0, 0);
+}
+.chart-child-text {
+  margin: 0px;
+  font-size: 14px;
+  color: rgb(139, 0, 0);
+  font-weight: 600;
+}
+.chart-text-label {
+  text-align: center;
+  margin-top: 15px;
+}
+.chart-text-label > button {
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.chart-text-label > p {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 600;
 }

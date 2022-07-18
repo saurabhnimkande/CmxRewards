@@ -7,7 +7,7 @@ export const Dashboard = () => {
     <div id="top-background-image">
       <div className="container">
         <div className="row" id="top-row-height">
-          <div className="col-4 text-light">
+          <div className="col-4 text-light" id="user-card-position">
             <UserCard></UserCard>
           </div>
           <div className="col-8 text-light">

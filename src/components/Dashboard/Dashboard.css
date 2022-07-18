@@ -4,6 +4,7 @@
   background-size: cover;
   width: 100%;
   height: 650px;
+  box-shadow: inset 0 0 50px #1e1e1e;
 }
 #slider {
   width: 82%;
@@ -23,11 +24,15 @@
   text-align: end;
 }
 .gold {
-  color: rgb(196, 169, 18);
+  color: rgb(196, 155, 18);
 }
 #cmx-rewards-title {
   border-bottom: 1px solid gray;
   margin-bottom: 30px;
   width: 82%;
   margin-top: 20px;
+}
+#user-card-position {
+  position: relative;
+  left: 35px;
 }
