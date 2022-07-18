@@ -1,0 +1,50 @@
+#tier-card-div {
+  background-color: white;
+  width: 600px;
+  height: 285px;
+  border-radius: 10px;
+  color: black;
+  padding: 20px;
+}
+#tier-card-text-top {
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+  display: flex;
+}
+#tier-card-text-top > div {
+  height: 70px;
+  width: 50%;
+}
+#tier-card-text-top > div > p {
+  height: 25px;
+}
+#tier-card-text-top > div > h1 {
+  height: 45px;
+}
+#cmx-rewards-div {
+  width: 200px;
+  height: 35px;
+  transform: skew(-20deg);
+  background: rgb(179, 36, 36);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cmx-rewards-div-content {
+  transform: skew(20deg);
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+#tier-card-rewards-div {
+  display: flex;
+  margin-top: 25px;
+  align-items: flex-end;
+}
+#tier-card-rewards-div > div:nth-child(2) {
+  font-size: 12px;
+  width: 50%;
+  text-align: end;
+  text-decoration: underline;
+  color: rgba(255, 0, 0, 0.774);
+}

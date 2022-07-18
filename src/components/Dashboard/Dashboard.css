@@ -1,7 +1,33 @@
 #top-background-image {
   background-image: url("/public/background.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 100%;
-  height: 800px;
+  height: 650px;
+}
+#slider {
+  width: 82%;
+}
+#slider-details {
+  display: flex;
+  width: 82%;
+  margin-bottom: 10px;
+}
+#slider-details > div {
+  flex-basis: 33.33%;
+}
+#slider-details > div:nth-child(2) {
+  text-align: center;
+}
+#slider-details > div:nth-child(3) {
+  text-align: end;
+}
+.gold {
+  color: rgb(196, 169, 18);
+}
+#cmx-rewards-title {
+  border-bottom: 1px solid gray;
+  margin-bottom: 30px;
+  width: 82%;
+  margin-top: 20px;
 }

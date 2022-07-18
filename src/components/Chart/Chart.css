@@ -1,0 +1,11 @@
+#chart-main-div {
+  background-color: rgb(41, 38, 38);
+  height: 500px;
+  color: white;
+  border: 1px solid red;
+  display: flex;
+}
+#chart-main-div > div {
+  height: 300px;
+  width: 300px;
+}

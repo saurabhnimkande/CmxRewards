@@ -6,11 +6,14 @@ export const UserCard = () => {
         <img src="/user_icon.jpg" alt="user_icon" id="user_icon" />
       </div>
       <div id="user-card-top">
-        <p className="m-0">
+        <p className="m-0 usercard-text">
           <strong>John Doe</strong>
         </p>
-        <p className="m-0">John@gmail.com</p>
-        <button id="edit_profile_btn" className="ps-2 pe-2 mt-1 mb-3">
+        <p className="m-0 usercard-text">John@gmail.com</p>
+        <button
+          id="edit_profile_btn"
+          className="ps-2 pe-2 mt-1 mb-3 usercard-text"
+        >
           EDIT PROFILE
         </button>
         <div className="row">
@@ -19,7 +22,7 @@ export const UserCard = () => {
               shield_with_house
             </span>
           </div>
-          <div className="col-6">
+          <div className="col-6 usercard-text">
             <p className="m-0 text-start">Your CMX Lifetime</p>
             <p className="m-0 text-start">
               points <strong>560</strong>
@@ -28,15 +31,17 @@ export const UserCard = () => {
         </div>
       </div>
       <div id="user-card-bottom">
-        <p>My Dashboard</p>
-        <p>Booking history</p>
-        <p>Manage saved cards</p>
-        <p>Rewards</p>
-        <p>Plan a movie party</p>
-        <p>Gift cards</p>
-        <p>Watchlist</p>
-        <p>Preferences</p>
-        <p>Logout</p>
+        <div>
+          <p>My Dashboard</p>
+          <p>Booking history</p>
+          <p>Manage saved cards</p>
+          <p>Rewards</p>
+          <p>Plan a movie party</p>
+          <p>Gift cards</p>
+          <p>Watchlist</p>
+          <p>Preferences</p>
+          <p>Logout</p>
+        </div>
       </div>
     </>
   );
